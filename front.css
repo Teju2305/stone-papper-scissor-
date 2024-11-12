@@ -1,0 +1,36 @@
+* {
+  margin: 20px;
+  padding: 0%;
+}
+body {
+  background-image: linear-gradient(to right, #ee9ca7, #ffdde1);
+  text-align: center;
+  justify-content: center;
+}
+.title {
+  font-family: fantasy;
+  font-size: 20px;
+  display: inline;
+  text-align: center;
+}
+
+label {
+  font-size: 25px;
+}
+
+#name,
+#count {
+  border: 3px solid black;
+  border-radius: 5px;
+  height: 25px;
+}
+
+button {
+  font-size: 20px;
+  background-color: #ee9ca7;
+  cursor: pointer;
+  padding: 10px;
+}
+button:hover {
+  border: 6px solid rgb(216, 89, 110);
+}
